@@ -1,0 +1,9 @@
+
+
+// SHOW NEW QUOTE
+function newQuote() {
+    const quote = localQuotes[Math.floor(Math.random() * apiQuotes.length)];
+    console.log(quote);
+}
+
+newQuote()
